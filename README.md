@@ -1,16 +1,21 @@
 # flutter_test_assignment
 
-A new Flutter project.
+This is a Flutter application demonstrating the use of Firebase Auth for user authentication, Firestore for cloud storage, Drift for offline caching, and Riverpod for state management. The app allows users to register, log in, manage tasks, and sync data between Firestore and the local database. It follows the MVVM architecture and Clean Architecture principles.
 
-## Getting Started
+## Used Packages
 
-This project is a starting point for a Flutter application.
+-firebase_core: Initializes Firebase for your Flutter app.
+-firebase_auth: Handles user authentication with Firebase (email/password).
+-cloud_firestore: Provides Firestore integration for cloud-based data storage.
+-flutter_riverpod: State management solution for Flutter, enabling a clean and testable architecture.
+-riverpod_annotation: Generates code for Riverpod providers.
+-drift: A local SQLite database for offline data caching.
+-go_router: Simplifies navigation and routing in Flutter.
+-mockito: A package for mocking objects in tests.
+-path_provider: Provides paths to directories on the device for storing files.
+-flutter_phoenix: Used for restarting the app (e.g., after logging out).
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Notes
+-Offline Access: Tasks are cached locally using Drift, and sync with Firestore is automatic.
+-User Authentication: Users must log in to manage tasks. Tasks are associated with the logged-in user.
+-Data Sync: Firestore is the source of truth, and changes are reflected both remotely and locally.
