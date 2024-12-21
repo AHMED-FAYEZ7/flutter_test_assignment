@@ -1,8 +1,8 @@
 # flutter_test_assignment
 
-* #This is a Flutter application demonstrating the use of Firebase Auth for user authentication, Firestore for cloud storage, Drift for offline caching, and Riverpod for state management.
-* #The app allows users to register, log in, manage tasks, and sync data between Firestore and the local database.
-* #It follows the MVVM architecture and Clean Architecture principles.
+#* This is a Flutter application demonstrating the use of Firebase Auth for user authentication, Firestore for cloud storage, Drift for offline caching, and Riverpod for state management.
+#* The app allows users to register, log in, manage tasks, and sync data between Firestore and the local database.
+#* It follows the MVVM architecture and Clean Architecture principles.
 
 ## Used Packages
 
