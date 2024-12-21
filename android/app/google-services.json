@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "154149889779",
+    "project_id": "flutter-test-assignment-cd6e0",
+    "storage_bucket": "flutter-test-assignment-cd6e0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154149889779:android:a5d6d9eabc6e2f8f357986",
+        "android_client_info": {
+          "package_name": "com.example.flutter_test_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIlpx_g4T6z3rHmnjWK0iH_zhfDfGcHwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
